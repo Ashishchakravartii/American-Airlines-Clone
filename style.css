@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100vw;
+    min-height: 100vh;
+    font-family: font2;
+
+}
+@font-face {
+    font-family: font1;
+    src: url(font/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2);
+}
+@font-face {
+    font-family: font2;
+    src: url(font/AmericanSansLight.woff2);
+}
+.bookingWindow{
+    width: 100vw;
+    height: 60vh;
+    background-image: url(https://assets.airtrfx.com/cdn-cgi/image/height=500,quality=85,format=auto/https://media.jtdwjcwq6f4wp4ce.com/aa/sky-default.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    width: 100vw;
+    height: 11vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navBtn button{
+    padding: 0.75vmax 1vmax;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #0078D2;
+    font-family: font2;
+    margin-left: 0.5vmax;
+}
+.navBtn{
+    display: flex;
+    justify-content: space-around;
+}
+.navBtn a{
+    margin-left: 2vmax;
+    text-decoration: none;
+    color: #0078D2;
+    display: flex;
+    align-items: center;
+    /* flex-direction: row;
+    justify-content: center; */
+    margin-left: 5vmax;
+    font-size: 1.01vmax;
+}
+.navBtn a>img{
+    width: 1.5vmax;
+    height: 1.5vmax;
+}
