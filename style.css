@@ -7,6 +7,8 @@ html,
 body{
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
+
 }
 .main{
     width: 100vw;
@@ -25,12 +27,16 @@ body{
 .bookingWindow{
     width: 100vw;
     height: 60vh;
-    background-image: url(https://assets.airtrfx.com/cdn-cgi/image/height=500,quality=85,format=auto/https://media.jtdwjcwq6f4wp4ce.com/aa/sky-default.jpg);
+    background-image: url(https://images.unsplash.com/photo-1513581166391-887a96ddeafd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.logo{
+    width: 15vmax;
+    margin-left: -5vmax;
 }
 
 nav{
@@ -47,7 +53,7 @@ nav{
     border-radius: 5px;
     border: none;
     color: white;
-    background-color: #0078D2;
+    background-color: rgb(235, 46, 46);
     font-family: font2;
     margin-left: 0.5vmax;
 }
@@ -58,7 +64,7 @@ nav{
 .navBtn a{
     margin-left: 2vmax;
     text-decoration: none;
-    color: #0078D2;
+    color: black;
     display: flex;
     align-items: center;
     /* flex-direction: row;
@@ -74,7 +80,8 @@ nav{
 .bookingDiv{
     width: 75%;
     height: 65%;
-    background-color: white;
+    background-color: rgb(11, 10, 10);
+    opacity: 0.9;
     margin-top: 2vmax;
     border-radius: 3px;
     overflow: hidden;
@@ -86,11 +93,15 @@ nav{
     display: flex;
     align-items: center;
     padding: 2.8vmax;
+    position: relative;
 }
 .bookingHead h1{
-    color: #0078D2;
+    color: rgb(235, 46, 46);
     font-weight: 400;
     font-size: 2.5vmax;
+    font-weight: 700;
+    letter-spacing: 0.4vmax;
+
 }
 
 .bookingTools{
@@ -106,10 +117,10 @@ nav{
 .toolDiv1 button{
     padding: 1vmin;
     background-color: transparent;
-    border: 1px solid #0078D2;
+    border: 1px solid rgb(235, 46, 46);
     border-radius: 3px;
     margin-top: 1.7vmax;
-    color: #0078D2;
+    color: rgb(235, 46, 46);
 }
 
 .toolDiv2{
@@ -128,6 +139,7 @@ nav{
 }
 .toolDiv2 div:nth-child(1){
     width: 19vmax;
+    background-color: white;
 }
 .toolDiv2 div:nth-child(2){
     width: 19vmax;
@@ -141,6 +153,177 @@ nav{
     font-family: font2;
     font-weight: 500;
     color: white;
-    background-color: #0078D2;
+    /* background-color: #0078D2; */
+    background-color: rgb(235, 46, 46);
 
+}
+
+.toolDiv2 div>h5{
+    color: #5f7784f7;
+    font-size: 1vmax;
+    font-weight: 500;
+    padding: 1vmax;
+}
+.toolDiv2 div>h5>span{
+    font-weight: 900;
+    font-size: 0.95vmax;
+    margin-bottom: 1vmax;
+}
+.depart{
+    width: 100%;
+    height: 100%;
+    padding: 0 2vmax;
+
+
+}
+.return{
+    width: 100%;
+    height: 100%;
+    padding: 0 2vmax;
+
+
+}
+
+form input{
+    /* background-color: #0078D2; */
+    width: 17.2vmax;
+    height: 4vmax;
+    border: 0.2px solid #D0DAE0;
+    padding: 0 2vmax;
+    /* border: none; */
+    border-radius: 3px;
+    background-color: white;
+
+}
+/* ----------------------------------------PAge 1 starting----------------------------------------  */
+
+.page1{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+.page1 h4,.page1 h2{
+    margin-left: 8vmax;
+    margin-top: 3vmax;
+}
+.page1 h4{
+    font-weight: 300;
+}
+.page1 h4>span{
+    color: rgb(235, 46, 46);
+;
+}
+.page1 h2{
+    font-weight: 500;
+    font-size: 3vmax;
+}
+
+.tripOption{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 3vmax;
+    margin-top: 3vmax;
+}
+.tripOption div>form>input{
+    padding: 0 1.5vmax;
+    margin-top: 1vmax;
+    color: gray;
+}
+.tripOption div>form>h5{
+    color: rgb(235, 46, 46);
+    font-weight: 400;
+    padding-left: 1vmax;
+}
+/* .optionCards{
+    width: 100vw;
+    height: 80vh;
+    background-color: #0078D2; */
+
+/* } */
+.optionCards{
+    width: 100vw;
+    height: 60vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+.optionCards div{
+    border-radius: 50px;
+    transition: all ease 0.5s;
+    border: 2px solid rgb(235, 46, 46);
+
+}
+.optionCards div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div1{
+    width: 55%;
+    height:50%;
+    background-color: #FFFFFF;
+    background-image: url(https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+}
+.optionCards div h1{
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 6vmax;
+    letter-spacing: 1vmax;
+    
+}
+.h1-1{
+    display: block;
+}
+.h1-2,.h1-2,.h1-3,.h1-4,.h1-5{
+    display: none;
+
+}
+
+.div2{
+    width: 10%;
+    height:50%;
+
+    background-color: blue;
+    background-image: url(https://images.unsplash.com/photo-1608181017892-cc4a542570d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.div3{
+    width: 10%;
+    height:50%;
+
+    background-color: red;
+    background-image: url(https://images.unsplash.com/photo-1586927090041-3cf674cd1a37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80);
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+.div4{
+    width: 10%;
+    height:50%;
+
+    background-color: green;
+     background-image: url(https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80);
+    background-position: center;
+    background-size: cover;
+}
+.div5{
+    width: 10%;
+    height:50%;
+
+    background-color: orange;
+     background-image: url(https://images.unsplash.com/photo-1566873535350-a3f5d4a804b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    background-size: cover;
 }

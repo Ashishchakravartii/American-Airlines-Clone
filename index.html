@@ -13,7 +13,7 @@
     <div class="main">
         <div class="bookingWindow">
             <nav>
-                <img src="https://assets.airtrfx.com/media-em/aa/logos/aa-large-default.png?width=300&quality=80&fit=crop&format=auto&opt=true"
+                <img class="logo" src="SwiftAir-1.png"
                     alt="">
                 <div class="navBtn">
                     <button>LOG IN</button>
@@ -24,7 +24,7 @@
             </nav>
             <div class="bookingDiv">
                 <div class="bookingHead">
-                    <h1>American Airlines Flight Deals</h1>
+                    <h1>SwiftAir Airlines Flight Deals</h1>
                 </div>
                 <div class="bookingTools">
                     <div class="toolDiv1">
@@ -35,20 +35,95 @@
                     </div>
                     <div class="toolDiv2">
                         <div>
-                            <h5><span>From</span> <br> City or airport</h5>
+                            <!-- <h5><span>From</span> <br> City or airport</h5> -->
+
+                            <form>
+                                <input class="input" type="text" placeholder="From - city or airport">
+                            </form>
+                            <!-- <h5><span>From</span> <br> City or airport</h5> -->
                         </div>
                         <div>
-                            <h5><span>To</span> <br> City or airport</h5>
+                            <form>
+                                <input class="input" type="text" placeholder="To - city or airport">
+                            </form>
 
                         </div>
-                        <div></div>
-                        <div></div>
+
+                        <div>
+                           <input class="depart" type="text" placeholder="Depart">
+                        </div>
+
+                        <div>
+                            <input class="return" type="text" placeholder="Return">
+
+                        </div>
                         <button>Search</button>
                     </div>
                 </div>
 
             </div>
         </div>
+        <div class="page1">
+            <h4> <span>Home</span>&nbsp; <i class="ri-arrow-drop-right-line"></i> &nbsp; SwiftAir Airlines flights</h4>
+            <h2>Looking for flights? See round trip options.</h2>
+            <div class="tripOption">
+                <div>
+                    <!-- <h5><span>From</span> <br> City or airport</h5> -->
+
+                    <form>
+                        <h5>From</h5>
+                        <input class="input" type="text" placeholder="city or airport">
+                    </form>
+                    <!-- <h5><span>From</span> <br> City or airport</h5> -->
+                </div>
+                <div>
+
+                    <form>
+                        <h5>To</h5>
+                        <input class="input" type="text" placeholder="city or airport">
+                    </form>
+
+                </div>
+                <div>
+
+                    <form>
+                        <h5>Budget</h5>
+                        <input class="input" type="number" placeholder="INR - Input max budget">
+                    </form>
+
+                </div>
+                <div>
+
+                    <form>
+                        <h5>Travel class</h5>
+
+                        <input class="input" type="text" placeholder="Class">
+                    </form>
+
+                </div>
+            </div>
+            <div class="optionCards">
+                    <div class="div1">
+                        <h1 class="h1-1">JAIPUR</h1> </div>
+                    <div class="div2">
+                        <h1 class="h1-2">GWALIOR</h1>
+                    </div>
+                    <div class="div3">
+                        <h1 class="h1-3">AMRITSAR</h1>
+                    </div>
+                    <div class="div4">
+                        <h1 class="h1-4">GOA</h1>
+                    </div>
+                    <div class="div5">
+                        <h1 class="h1-5">JODHPUR</h1>
+                    </div>
+                
+            </div>
+        </div>
+
+
+
+    </div>
     </div>
     <script src="script.js"></script>
 </body>
