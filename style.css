@@ -133,7 +133,6 @@ nav{
 .toolDiv2 div{
     width: 12vmax;
     height: 4vmax;
-    border: 0.8px solid #D0DAE0;
     border-radius: 3px;
 
 }
@@ -404,3 +403,178 @@ scale: 4;
     display: flex;
     flex-direction: column;
 }
+
+/* ------------------------------------------------------------------------------------------------------- */
+                                           /* responsive */
+
+@media(max-width:600px){
+    .bookingDiv{
+        width: 90vw;
+        height: 85%;
+    }
+    .bookingHead{
+        height: 10vh;
+    }
+    
+    .toolDiv1{
+        display: flex;
+        width: 100%;
+        height: 23%;
+        gap: 2vmax;
+    }
+    .toolDiv1 button{
+        width: 30vw;
+        height: 5vh;
+    }
+    .toolDiv2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 85%;
+    }
+    .toolDiv2 div{
+        width: 100%;
+        height: 12vh;
+    }
+    .toolDiv2 div:nth-child(1){
+        width: 35vmax;
+        height: 10vh;
+        background-color: white;
+    }
+    .toolDiv2 div:nth-child(2){
+        width: 35vmax;
+        height: 10vh;
+
+    }
+    .toolDiv2 div:nth-child(3){
+      border-radius: 10px;
+
+    }
+    .toolDiv2 div:nth-child(4){
+      border-radius: 10px;
+
+    }
+    
+    form input{
+        width: 35vmax;
+        height: 6.1vh;
+    }
+    .bookingWindow{
+        height: 70vh;
+    }
+    .depart{
+        width: 35vmax;
+        height: 6.1vh;
+        border: none;
+
+    }
+    .departDiv input{
+        width: 35vmax;
+        height: 6.1vh;
+
+
+    }
+    .return{
+        width: 35vmax;
+        height: 6.1vh;
+
+    }
+    .toolDiv2 button{
+        width: 70vw;
+        height: 15vh;
+        margin-left: 1.2vmax;
+        margin-top: 1vmax;
+        font-size: 2.5vmax;
+        letter-spacing: 0.1vmax;
+    }
+
+    nav{
+        height: 9vh;
+    }
+    .navBtn button:nth-child(2){
+        display: none;
+    }
+    .navBtn a:nth-child(3){
+        display: none;
+    }
+    .page1 h4{
+        margin-left: 2vmax;
+    }
+    .page1 h2{
+        margin-left: 2vmax;
+    }
+    .tripOption{
+        flex-direction: column;
+    }
+    .tripOption div>form>h5{
+        font-size: 2vmax;
+        font-weight: 400;
+        padding-left: 1vmax;
+        margin-top: 2vmax;
+    }
+    .tripOption div>form>input{
+       padding-left: 2vmax;
+    }
+    .optionCards{
+        height: 20vh;
+    }
+    .optionCards div{
+        height: 10vh;
+        border: none;
+    }
+    .optionCards div h1{
+        font-size: 4vmax;
+        
+    }
+    .page2{
+        margin-top: -13vmax;
+        height: 85vh;
+    }
+    .page2 h5{
+        font-size:  1.2vmax;
+        margin: auto;
+    }
+    .page2 img{
+        width: 90%;
+        height: 75%;
+        object-fit: cover;
+        object-position: center;
+        margin-left:2.2vmax ;
+        margin-top: 2vmax;
+    }
+    
+    .page3{
+        flex-direction: column;
+        height: 75vh;
+        padding-left: 2vmax;
+    }
+    .page3 div>ul>li{
+        font-size: 1.8vmax;
+       margin-top: 0.6vmax;
+    }
+    footer{
+        height: 20vh;
+    }
+    footer div{
+        gap: 1vmax;
+    }
+    footer div>h6{
+        font-size: 1.2vmax;
+
+    }
+    footer div{
+      
+        padding: 0 1vmax;
+        padding-top: 1.5vmax;
+       
+    }
+    .footerDiv2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    footer img{
+        scale: 2.5;
+        }
+   
+}                                     

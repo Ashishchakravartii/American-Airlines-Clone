@@ -9,7 +9,7 @@ let h3= document.querySelector(".h1-3");
 let h4= document.querySelector(".h1-4");
 let h5= document.querySelector(".h1-5");
 
-div1.addEventListener("click",()=>{
+div1.addEventListener("mouseover",()=>{
     div1.style.width="55%"
     div2.style.width="10%"
     div3.style.width="10%"
@@ -23,7 +23,7 @@ div1.addEventListener("click",()=>{
     h5.style.display="none"
 
 })
-div2.addEventListener("click",()=>{
+div2.addEventListener("mouseover",()=>{
     div1.style.width="10%"
     div2.style.width="55%"
     div3.style.width="10%"
@@ -37,7 +37,7 @@ div2.addEventListener("click",()=>{
     h5.style.display="none"
 
 })
-div3.addEventListener("click",()=>{
+div3.addEventListener("mouseover",()=>{
     div1.style.width="10%"
     div2.style.width="10%"
     div3.style.width="55%"
@@ -51,7 +51,7 @@ div3.addEventListener("click",()=>{
     h5.style.display="none"
 
 })
-div4.addEventListener("click",()=>{
+div4.addEventListener("mouseover",()=>{
     div1.style.width="10%"
     div2.style.width="10%"
     div3.style.width="10%"
@@ -65,7 +65,7 @@ div4.addEventListener("click",()=>{
     h5.style.display="none"
 
 })
-div5.addEventListener("click",()=>{
+div5.addEventListener("mouseover",()=>{
     div1.style.width="10%"
     div2.style.width="10%"
     div3.style.width="10%"
