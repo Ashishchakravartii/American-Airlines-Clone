@@ -250,9 +250,9 @@ form input{
     position: relative;
 }
 .optionCards div{
-    border-radius: 50px;
+    border-radius: 100px;
     transition: all ease 0.5s;
-    border: 2px solid rgb(235, 46, 46);
+    /* border: 2px solid rgb(235, 46, 46); */
 
 }
 .optionCards div{
